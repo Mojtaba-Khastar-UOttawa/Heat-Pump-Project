@@ -2,24 +2,27 @@
 
 Overview:
 
-The Heat-Pump-Project is an analysis tool designed to evaluate heat pump adoption across various provinces. Leveraging datasets and R scripts, this project assesses the impact of different heating systems, furnace types, and energy sources to provide actionable insights for energy efficiency and cost savings.
+The Heat-Pump-Project is an analysis tool designed to evaluate the adoption of heat pumps across various provinces in Canada. Utilizing comprehensive datasets and a suite of R scripts, this project assesses the impact of different heating systems, furnace types, and energy sources. By integrating high-resolution weather data and conducting a techno-economic analysis, the project provides actionable insights aimed at enhancing energy efficiency and achieving significant greenhouse gas (GHG) emissions reductions.
 
+Summary of Findings:
+
+Electrifying residential heating and cooling presents a substantial opportunity for mitigating greenhouse gas emissions. Our analysis demonstrates that widespread adoption of residential heat pumps in Canada could reduce direct residential GHG emissions by 91% to 100%. Furthermore, with the implementation of rebates and carbon taxes, approximately 64% of households would experience reduced heating and cooling costs. In the absence of such policies, only 12% of households would benefit financially from adopting heat pumps. The transition to heat pumps is projected to increase economy-wide electricity demand by 70% in Ontario, highlighting the need for strategic planning in energy infrastructure.
 
 Features:
 
-Data Cleaning & Preprocessing: Loads and cleans energy and housing data for multiple provinces.
+Data Cleaning & Preprocessing: Efficiently loads and cleans energy and housing data for multiple provinces using the EnerGuide for Houses (EGH) database.
 
-Heat Pump Analysis: Evaluates available heat pumps and calculates associated costs.
+Heat Pump Analysis: Evaluates available heat pumps, calculates associated costs, and assesses their operational efficiency under various scenarios.
 
 Furnace Cost Calculation: Determines the remaining lifespan and costs of furnaces.
 
-Weather Data Integration: Incorporates weather patterns to assess heating and cooling demands.
+Weather Data Integration: Incorporates high-resolution weather data from the Canadian Weather Year for Energy Calculation (CWEC) to assess heating and cooling demands.
 
-Clustering: Groups similar housing units to streamline analysis.
+Clustering: Groups similar housing units using K-means clustering to streamline analysis and ensure representative sampling.
 
-Operational Modeling: Simulates cooling and heating operations with various backup options.
+Operational Modeling: Simulates cooling and heating operations with various backup options, evaluating both energy efficiency and cost-effectiveness.
 
-Scalability: Calculates scale factors to extrapolate results to a national level.
+Scalability: Calculates scale factors to extrapolate results from a sample near one million homes to the national housing stock.
 
 Visualization: Generates plots for marginal abatement costs and electricity usage.
 
