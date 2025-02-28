@@ -6,7 +6,6 @@ The Heat-Pump-Project is an analysis tool designed to evaluate the adoption of h
 
 Summary of Findings:
 
-Electrifying residential heating and cooling presents a substantial opportunity for mitigating greenhouse gas emissions. Our analysis demonstrates that widespread adoption of residential heat pumps in Canada could reduce direct residential GHG emissions by 91% to 100%. Furthermore, with the implementation of rebates and carbon taxes, approximately 64% of households would experience reduced heating and cooling costs. In the absence of such policies, only 12% of households would benefit financially from adopting heat pumps. The transition to heat pumps is projected to increase economy-wide electricity demand by 70% in Ontario, highlighting the need for strategic planning in energy infrastructure.
 
 Features:
 
